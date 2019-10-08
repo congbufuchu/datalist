@@ -1,0 +1,81 @@
+.tip{
+	color:#f45;
+}
+.clearup
+{
+	text-align:left;
+}
+.pin{
+	color: #f30; 
+}
+.zonggong{
+	text-align: center;
+}
+.picture{
+	height: 130px;
+	width: 270px;
+}
+.headtip{
+	text-align: right;
+	/*display: block;*/
+}
+.change{
+	color: black;
+	font-size: 13px;
+	line-height: 40px;
+}
+.change:hover{
+	color: blue;
+}
+.kuang{
+	border: 1px solid #b6b6b6;
+	width: 530px;
+	height: 30px;
+}
+.tupian
+{
+	background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+	top: 50%;
+	text-align: right;
+	height: 16px;
+    width: 18px;
+    right: 11px;
+}
+.but{
+	height: 35px;
+	width: 100px;
+	background-color: #3385ff; 
+	color: #fff;
+	font-size: 15px;
+}
+.erwei{
+	/*text-align: center;*/
+    /*position: absolute;*/
+    bottom: 140px;
+    height: 100px;
+    width: 100%;
+}
+.xiaozi{
+	color: #666;
+    font-weight: 600;
+    font-size: 15px;
+}
+.hui{
+	color: #999;
+	font-size: 12px;
+}
+.geduan
+{
+	height: 150px;
+}
+.xiaotu
+{
+	width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+}
+.xiaohui{
+	color: #999;
+}

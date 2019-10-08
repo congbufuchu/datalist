@@ -1,0 +1,22 @@
+*{margin:0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:none; display:block;}
+input{outline: none;}
+body{
+	font:12px "微软雅黑";
+}
+
+.nav{
+	width:673px;
+	height:78px;
+	background: #f0f;
+	margin:30px auto;
+}
+.nav li{float:left; height: 78px; background: url(../img/nav.png) no-repeat ;}
+.nav1{width:89px;}
+.nav .nav2{width:112px; background-position: -92px 0;}
+.nav li:hover{
+	background-image: url(../img/nav-on.png);
+}
+.nav a{display: block; height: 100%; text-indent: -100%; overflow:hidden; }

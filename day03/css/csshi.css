@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	width: 300px;
+	height: 133px;
+	background: red url("../images/bg.png") no-repeat -50px -70px;
+	margin: 0 auto;
+}
+.body{
+	width: 300px;
+	height: 148px;
+	background: red url("../images/bg.png") no-repeat -353px -407px;
+	margin: 0 auto;
+}
+.foot{
+	width: 465px;
+	height: 176px;
+	background: red url("../images/bg.png") no-repeat -527px -749px;
+	margin: 0 auto;
+}
+.three{
+	width: 100px;
+	height: 100px;
+	background: red url("../images/position.png") no-repeat -200px 0px;
+	margin: 0 auto;
+}
+.six{
+	width: 100px;
+	height: 100px;
+	background: red url("../images/position.png") no-repeat -200px -100px;
+	margin: 0 auto;
+}
+.nine{
+	width: 100px;
+	height: 100px;
+	background: red url("../images/position.png") no-repeat -200px -200px;
+	margin: 0 auto;
+}
+
+transform:rotate(90deg);
+-ms-transform:rotate(90deg); /* Internet Explorer */
+-moz-transform:rotate(90deg); /* Firefox */
+-webkit-transform:rotate(9deg); /* Safari 和 Chrome */
+-o-transform:rotate(90deg); /* Opera */
+.wind_1{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+.wind_2{
+	width: 400px;
+	height: 200px;
+}
+.wind_3{
+	width: 0px;
+	height: 0px;
+	/*background-color: red;*/
+	border-bottom:100px solid yellow;
+	border-top:100px solid transparent;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	float: left;
+}
+.wind_4{
+	width: 0px;
+	height: 0px;
+	/*background-color: red;*/
+	border-bottom:100px solid transparent;
+	border-top:100px solid transparent;
+	border-left:100px solid yellow;
+	border-right:100px solid transparent;
+	float: left;
+}
+.wind_6{
+	width: 0px;
+	height: 0px;
+	/*background-color: red;*/
+	border-bottom:100px solid transparent;
+	border-top:100px solid transparent;
+	border-left:100px solid transparent;
+	border-right:100px solid yellow;
+	float: left;
+}
+.wind_7{
+	width: 0px;
+	height: 0px;
+	/*background-color: red;*/
+	border-bottom:100px solid transparent;
+	border-top:100px solid yellow;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	float: left;
+}
