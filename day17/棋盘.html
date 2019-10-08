@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var i=0.00001
+        var a=0
+        for(var b=1;b <= 64 ; b++){
+            a= i+a//a作为格子中米的重量进行增加
+            i = i*2//在a层架过后格子中的米数乘以2倍，为下一轮a的增加更新
+            console.log(a)
+            console.log(b)
+        }
+        document.write(a)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

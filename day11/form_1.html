@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人信息</title>
+	<style>
+		.table_1{
+			margin:0 20px; 
+		}
+		fieldset{
+			border: none;
+			border-top:3px solid #ccc;
+		}
+		legend{
+			/*text-indent: 2em;*/
+			margin-left: 10px;
+		}
+		form{
+			margin-left: 20px;
+		}
+		.xiaozihao{
+			font-size: 12px;
+		}
+		.suo{
+			margin-left: 10px;
+		}
+		li{
+			list-style: none;
+		}
+		.tijiao{
+			text-align: center;
+		}
+	</style>
+	<!-- <link rel="stylesheet" type="text/css" href="css/usall.css"> -->
+</head>
+<body>
+	<div class="table_1">
+		<fieldset>
+			<legend>个人信息</legend>
+			<form action="">
+				<ul>
+					<li>姓名*<input type="text" name=""></li><br>
+					<li>地址*<input type="text" name=""></li><br>
+					<li>出生*<select>
+						<option value="" selected="selected">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+					</select>
+					<select>
+						<option value="" selected="selected">jan</option>
+						<option value="">2th</option>
+						<option value="">mar</option>
+						<option value="">apri</option>
+						<option value="">may</option>
+						<option value="">june</option>
+					</select>
+					<select>
+						<option value="" selected="selected">1979</option>
+						<option value="">1980</option>
+						<option value="">1981</option>
+						<option value="">1982</option>
+						<option value="">1983</option>
+						<option value="">1984</option>
+					</select></li><br>
+					<li>性别*<select>
+						<option value="" selected="selected">女</option>
+						<option value="">男</option>
+					</select></li>
+				</ul>
+			
+		</fieldset>
+		<fieldset id="">
+			<legend>其他信息</legend>
+			<fieldset id="" class="suo">
+				<legend>你喜欢这个表单吗？*</legend>
+				<div><input type="radio" name="ral">喜欢
+				<input type="radio" name="ral">不喜欢</div>
+			</fieldset>
+			<fieldset id="" class="suo">
+				<legend>你喜欢这个表单吗？*</legend>
+				<div><input type="checkbox" name="ral">足球
+				<input type="checkbox" name="ral">篮球
+				<input type="checkbox" name="ral">排球</div>
+			</fieldset>
+			<fieldset id="" class="suo">
+				<legend>建议*</legend>
+				<div><textarea cols="30" rows="10">建议在这</textarea></div>
+			</fieldset>
+		</fieldset>
+		<div class="tijiao"><input type="submit" name="" value="提交"></div>
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function fun(n){
+            var a=1
+            var b=0
+            for (var i=1;i<=n;i++) {
+                a *= i
+                b += a
+            }
+            return a                
+               
+        }
+        // fun(5)
+        window.onload=function(){
+            // var btn = document.getElementById('btn')
+            btn.onclick=function(){
+                var n=document.getElementById('shu').value  - 0
+                
+                // document.getElementById('chu').value=fun(n)
+                // chu.value=fun(n)
+                document.getElementById('chu').value=fun(n)
+        }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="shu" placeholder="输入">
+    <input type="button" id="btn">
+    <input type="text" id="chu" placeholder="输出">
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+            var btn = document.getElementById('btn');
+            btn.onclik=function(){
+                var shu = documentdocument.getElementById("shu").value
+                shu=parseInt(shu)
+                var a = parseInt(shu/10000)
+                var b = parseInt(shu/1000)
+                b = b % 10
+                var c = parseInt(shu/100)
+                c = c % 10
+                var d = parseInt(shu/10)
+                d = d % 10
+                e = shu % 10
+                for (var i = 1 ; i < 1000 ; i++) {
+                    if (shu===a*a*a+b*b*b+c*c*c+d*d*d+ e*e*e){
+                        // document.getElementById("chu").value = "是水仙数"
+                        chu.value = '是水仙花数'
+                    }else{
+                        // document.getElementById("chu").value = '不是水仙数'
+                        chu.value = '不是水仙花数'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="shu" placeholder="请输入一个五位数">
+    <input type="button" id="btn">
+    <input type="text" id="chu">
+</body>
+</html>

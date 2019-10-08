@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+//         console.log('请输入三个数：');
+// function fn(num1,num2,num3,num4){
+// if (num1 > num2) {
+// num4 = num1;
+// num1 = num2;
+// num2 = num4;
+// }
+// if (num2 > num3) {
+// num4 = num2;
+// num2 = num3;
+// num3 = num4;
+// }
+// if (num1 > num3) {
+// num4 = num1;
+// num1 = num3;
+// num3 = num4;
+// }console.log(num1 + '<' + num2 + '<' + num3);}
+// // 
+// fn(20,14,35)
+function fn1(i,j,m){
+                if(i>=j){
+                    max=i
+                    min=j
+                }else{
+                    max=j
+                    min=i
+                }
+                if(m>=i&&m>=j){
+                    mid=max
+                    max=m
+                }else if(m<=i&&m<=j){
+                    mid=min
+                    min=m
+                }
+                else{
+                    mid=m
+                }
+                document.write(min+'<'+mid+'<'+max)
+                document.write('<br>')
+            }
+            fn1(2,1,3)
+            fn1(4,5,6)
+            fn1(2,9,3)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

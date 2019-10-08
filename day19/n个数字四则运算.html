@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // function sum(){
+        //     var num=0
+        //     for ( var i = 0 ; i < arguments.length; i++){
+        //         // num +=arguments[i]
+        //         // num -=arguments[i]
+
+        //     }
+        //     return num
+        // }
+        // function double(){
+        //     var num=1
+        //     for ( var i = 0 ; i < arguments.length; i++){
+        //         // num *=arguments[i]
+        //         // num /=arguments[i]
+        //     }
+        //     return num
+        // }
+        // var n1 = sum(1,2,3,34,2,5)
+        // var n2 = double(1,2,3,34,2,5)
+        // console.log(n1)
+        // console.log(n2)
+        function f1(){
+            var n1=arguments[0]
+            var n2=arguments[0]
+            var n3=arguments[0]
+            var n4=arguments[0]
+            for(var i=1;i<arguments.length;i++){
+                
+                n1+=arguments[i]
+                n2-=arguments[i]
+                n3*=arguments[i]
+                n4/=arguments[i]
+                
+            }
+            console.log(n1,n2,n3,n4)
+            return n1,n2,n3,n4
+        }
+        
+        f1(3,1,7)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

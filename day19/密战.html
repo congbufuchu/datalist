@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function fun(a,b,c,d,e){
+                a=(a+5)%10
+                b=(b+5 ) % 10
+                c = (c+5) % 10
+                d = (d+5) % 10
+                e=a
+                a=d
+                d=e
+                e=b
+                b=c
+                c=e
+                console.log(a,b,c,d)
+        }
+        function func(shu,e){
+            var a = parseInt(shu/1000)
+            a=(a+5)%10
+            var b = parseInt(shu/100)
+            b = b % 10
+            b=(b+5 ) % 10
+            var c = parseInt(shu/10)
+            c = c % 10
+            c = (c+5) % 10
+            var d = parseInt(shu)
+            d = d % 10
+            d = (d+5) % 10
+            e=a
+                a=d
+                d=e
+                e=b
+                b=c
+                c=e
+            console.log(a*1000+b*100+c*10+d)
+        }
+        fun(3,0,2,8)
+        func(3028)
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+#container{
+	height: 100%
+}
+header{
+	height: 44px;
+	width: 100%;
+	background: #000;
+	position: fixed;
+	top: 1;
+	/*padding: 6px 0;*/
+}
+.tophead{
+	display: flex;
+	justify-content: space-between;
+}
+.tian{
+	height: 40px;
+	width: 100%;
+}
+.headtip{
+	width: 100%;
+	height: 36px;
+}
+section{
+	background: #f2f;
+	overflow-y:auto;
+	height: 100%;
+}
+.footer_1{
+	display: flex;
+	justify-content: space-between;
+}
+img{
+	width: 100%;
+}
+footer{
+	height: 44px;
+	width: 100%;
+	background: #eee;
+	position: fixed;
+	bottom: 0;
+}
+footer .footer_1 div{
+	width: 15%;
+}
